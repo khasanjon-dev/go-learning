@@ -12,6 +12,6 @@ func familyAges(firstName string, age int) {
 }
 
 func main() {
-	//familyName("Khasan")
+	familyName("Khasan")
 	familyAges("Khasan", 21)
 }
