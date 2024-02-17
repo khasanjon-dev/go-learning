@@ -3,14 +3,23 @@ package main
 import "fmt"
 
 func main() {
-	num := 20
-	if num >= 10 {
-		fmt.Println("Num is more than 10.")
-		if num > 15 {
-			fmt.Println("Num is also more than 15.")
-		}
-	} else {
-		fmt.Println("Num is less than 10.")
+	day := 8
+	switch day {
+	case 1:
+		fmt.Println("Monday")
+	case 2:
+		fmt.Println("Tuesday")
+	case 3:
+		fmt.Println("Wednesday")
+	case 4:
+		fmt.Println("Thursday")
+	case 5:
+		fmt.Println("Friday")
+	case 6:
+		fmt.Println("Saturday")
+	case 7:
+		fmt.Println("Sunday")
+	default:
+		fmt.Println("Not a weekday")
 	}
-
 }
