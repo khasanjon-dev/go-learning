@@ -3,7 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	if 20 > 18 {
-		fmt.Println("20 is greater than 18")
+	time := 6
+	if time < 6 && time < 18 {
+		fmt.Println("Good day.")
+	} else if time == 6 {
+		fmt.Println("Good morning")
+	} else {
+		fmt.Println("Good evening.")
 	}
+
 }
